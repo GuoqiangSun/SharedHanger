@@ -5,7 +5,6 @@ import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
-import android.widget.Toast;
 
 /**
  * author Guoqiang_Sun
@@ -18,10 +17,9 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Toast.makeText(getApplicationContext(), " hello world ", Toast.LENGTH_SHORT).show();
     }
 
-    public void bleTest(View view) {
+    public void scanBle(View view) {
         startActivity(new Intent(this, BleScanActivity.class));
     }
 }

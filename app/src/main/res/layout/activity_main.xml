@@ -14,8 +14,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:text="bleTest"
-        android:onClick="bleTest"
+        android:text="scanBle"
+        android:textAllCaps="false"
+        android:onClick="scanBle"
         android:textSize="16sp" />
 
     <View

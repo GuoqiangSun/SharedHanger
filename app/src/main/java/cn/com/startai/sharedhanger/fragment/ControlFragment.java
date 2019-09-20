@@ -180,7 +180,7 @@ public class ControlFragment extends BaseFragment {
                 buf[27] = 0x00;
 
                 buf[28] = 0x00; // length
-                buf[29] = 0x09; // length
+                buf[29] = 0x0A; // length
 
                 buf[30] = 0x00; // custom
                 buf[31] = 0x08;
@@ -351,7 +351,7 @@ public class ControlFragment extends BaseFragment {
                 buf[27] = 0x00;
 
                 buf[28] = 0x00; // length
-                buf[29] = 0x09;
+                buf[29] = 0x0D;
 
                 buf[30] = 0x00; // custom
                 buf[31] = 0x08;
